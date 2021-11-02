@@ -15,8 +15,8 @@ public class TV {
 		this.estado=estado;
 		setNumTV(getNumTV()+1);
 	}
-	public int getNumTV() {
-		return numTV;
+	public static int getNumTV() {
+		return TV.numTV;
 	}
 	public static void setNumTV(int num) {
 		TV.numTV=num;
